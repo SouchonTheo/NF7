@@ -1,0 +1,39 @@
+{
+  "name": "backend-nf7",
+  "version": "1.0.0",
+  "description": "BackEnd NF7",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "Dave Gray",
+  "license": "ISC",
+  "engines": {
+    "node": "18.x"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@openzeppelin/contracts": "^4.6.0",
+    "@truffle/hdwallet-provider": "^2.0.8",
+    "axios": "^0.27.2",
+    "bcrypt": "^5.0.1",
+    "chai": "^4.3.6",
+    "config": "^3.3.7",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "date-fns": "^2.23.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "hardhat": "^2.9.6",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^10.0.0",
+    "mongoose": "^6.0.11",
+    "openzeppelin-solidity": "^4.6.0",
+    "truffle": "^5.5.14",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}

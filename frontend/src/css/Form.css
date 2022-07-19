@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap");
+
+body { 
+    background-size: 100% 100%;
+    background-color: #e8f4fe;
+}
+
+.form-box{
+    width:100%;
+    height: 100%;
+    padding: 5vw ;
+    position:relative; 
+}
+   
+form *{
+    font-family: 'Poppins', sans-serif;
+    color: #535353;
+    letter-spacing: 1px;
+    outline: none;
+    border: none;
+}
+
+.form-box h3 {
+    font-size: 42px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.form-box label{
+    font-size: 25px;
+    color: #09005f;
+}
+
+.form-box a{
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    color: #110394;
+}
+    
+.form-box input, textarea{
+    display: block;
+    width: 100%;
+    padding: .5rem .8rem .5rem .8rem;
+    border:1;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.form-box input[type="file"] {
+    margin-left: auto;
+    margin-right: auto;
+    width: auto
+}
+
+
+.btn {
+    margin-left: auto;
+    margin-right: auto; 
+    width: 150px;
+    height: auto;
+    background-color: #09005f; 
+    color: #fff;
+    border-radius: 1em;
+    font-size: 1.25rem;
+}
+
+.btn:hover {
+    margin-left: auto;
+    margin-right: auto; 
+    width: 150px;
+    height: auto;
+    background-color: #5e4eef; 
+    color: #fff;
+    font-weight: bold;
+    border-radius: .9em;
+    font-size: 1.25em;
+}

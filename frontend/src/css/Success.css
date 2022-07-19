@@ -1,0 +1,10 @@
+.success{
+    color: #1c8100; 
+    border: solid 1px #005f0b;
+    border-radius: 1em;
+    text-align: center;
+    padding: 0.8em 0.5em 0.5em;
+    margin: 0.8em 0.5em 0.5em;
+    background-color: rgb(213, 255, 221);
+    font-size: 20px;
+}

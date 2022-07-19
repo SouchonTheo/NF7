@@ -1,0 +1,26 @@
+Section 1:
+NFT : petit cours
+
+Choix technique : 
+    - React
+    - Express
+    - MongoDB
+    - Node
+    - IPFS
+    - Metamask
+    - Docker
+
+Architecture :
+    - MongoDB dans le cloud donc persistant
+    - Communication avec Axios
+    - React communique avec la blockchain (Node aussi)
+
+Originalités :
+    - Thème émergent lié à la blockchain et des biblio ethers
+    - Réel impact sur la blockchain
+
+    - Création de notre contrat selon l'architecture d'une EIP-721 
+        - Explication d'un contrat
+
+Section 2:
+    - prez classique

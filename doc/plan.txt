@@ -1,0 +1,48 @@
+- Achat vente
+
+    Reservation :
+        mise dans le panier = 5 min de réservation
+        possibilité de relancer le timer (limite 3 ?)
+        après d'autres personnes peuvent le resérver puis l'acheter -> message indisponible
+
+- DB
+
+    tables : infos clé primaire = identifiant(int) colonnes correspondant aux infos (username, mdp, mail...)
+             commandes : clé primaire = num commande avec les users etc
+             nft : image associée username acheteur (associée avec d'autres infos sur l'image)
+                - une table avec toutes les nfts dedans + proprio crypté avec correspondance dans une autre table
+                - une table de nft par utilisateur avec lien vers les images possédées
+                - une table de nft par utilisateur avec lien vers les images aimées
+             like : table pour chaque utilisateur qui contient les id des nft qu'il aime
+
+- Popular products
+
+    Les nfts qui ont le plus de "vues" (clicks) apparaissent dans cette page. On peut cliquer sur une nft pour afficher sa page et potentiellement l'acheter.
+
+- Vue d'un nft
+
+    On voit l'image, son proprio, son créateur, son prix si elle est achetable, on peut l'aimer (comme une sauvegarde). On voit aussi ses tags.
+
+- Suppression d'un nft
+
+    Lorsqu'un utilisateur supprime un nft qu'il possède, il doit être supprimé dans toutes les tables de like d'utilisateurs (meme si ca prend du temps)
+
+- Sales center
+
+    Page utilisée pour rechercher des nfts à acheter. Barre de recherche sur le titre, sélection par tags. Puis affichage des images obtenues.
+
+- Gestion du compte
+
+Si l'on est pas connecté : log in / sign in
+
+Si on est connecté : paramètres du compte, gallery, gestion de son portefeuille (convertir son argent)
+
+- Vente d'un nft :
+
+    Prix fixe
+    Enchère dans une amélioration
+
+- Langages utilisés
+
+    jsp pour le coté serveur, communication avec hsql (comme en TP) par EJB
+    javascript pour le front end, avec html et css.

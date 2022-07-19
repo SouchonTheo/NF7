@@ -1,0 +1,21 @@
+Suite de logiciel à dl:
+	Truffle (ligne de commande pour upload)
+	Truffle-ganache (account etc en local)
+	pinata (lien qui encode en ipfs photo et autre)
+	NodesJS (suite permettant d'avoir truffle etc)
+	Infura (lien permettant la connexion à rinkebery)
+
+Lien pour générer des euh:
+	https://faucets.chain.link/rinkeby
+
+Lien du site ou consulter nos nft:
+	opensea testnet
+
+
+Commande utile:
+Npx truffle console
+Npx truffle console --network Rinkeby (avec la bonne config)
+
+Dans la console:
+Const art = await ArtCollectible.deployed()
+Await art.claimItem('address')
